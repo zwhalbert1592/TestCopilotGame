@@ -1,0 +1,32 @@
+{
+  "name": "Player",
+  "idle": {
+    "pattern": "Player/Idle/frame-{0}.png",
+    "count": 2,
+    "framesPerSecond": 1
+  },
+  "run": {
+    "pattern": "Player/running/frame-{0}.png",
+    "count": 6,
+    "framesPerSecond": 10
+  },
+  "jump": {
+    "pattern": "Player/Jump/frame-{0}.png",
+    "count": 2,
+    "framesPerSecond": 8
+  },
+  "physics": {
+    "gravity": 1000,
+    "jumpVelocity": 500,
+    "groundLevel": 200,
+    "maxRunSpeed": 300
+  },
+  "render": {
+    "startX": 100,
+    "startY": 200,
+    "scale": 1,
+    "idleZOrder": 0,
+    "runZOrder": 1,
+    "jumpZOrder": 2
+  }
+}
