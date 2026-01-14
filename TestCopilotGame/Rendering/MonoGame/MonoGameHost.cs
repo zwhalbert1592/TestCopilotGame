@@ -156,9 +156,8 @@ public class MonoGameHost : Game
             {
                 GroundY = config.Physics.GroundLevel
             };
-            var groundTexture = textures.Load(groundConfig.TexturePath);
             _groundRenderer = new GroundRenderer(
-                groundTexture,
+                GraphicsDevice,
                 groundConfig.TileWidth,
                 groundConfig.TileHeight,
                 groundConfig.GroundY,
@@ -290,6 +289,8 @@ public class MonoGameHost : Game
                             sr.Draw(_spriteBatch);
                         else if (renderable is AnimatedSpriteRenderer asr)
                             asr.Draw(_spriteBatch);
+                        else if (renderable is GroundRenderer gr)
+                            gr.Draw(_spriteBatch);
                     }
                 }
                 _spriteBatch.End();

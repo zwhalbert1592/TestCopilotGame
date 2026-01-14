@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|c:\\users\\zach\\source\\repos\\testcopilotgame\\testcopilotgame\\entities\\configuration\\groundconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|solutionrelative:testcopilotgame\\entities\\configuration\\groundconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|c:\\users\\zach\\source\\repos\\testcopilotgame\\testcopilotgame\\config\\character.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|solutionrelative:testcopilotgame\\config\\character.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|c:\\users\\zach\\source\\repos\\testcopilotgame\\testcopilotgame\\entities\\groundrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|solutionrelative:testcopilotgame\\entities\\groundrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|c:\\users\\zach\\source\\repos\\testcopilotgame\\testcopilotgame\\rendering\\monogame\\monogamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|solutionrelative:testcopilotgame\\rendering\\monogame\\monogamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|c:\\users\\zach\\source\\repos\\testcopilotgame\\testcopilotgame\\testcopilotgame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68C46511-D20E-44B8-BBBC-BAAF7B7CDA0E}|TestCopilotGame\\TestCopilotGame.csproj|solutionrelative:testcopilotgame\\testcopilotgame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "character.json",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Config\\character.json",
+              "RelativeDocumentMoniker": "TestCopilotGame\\Config\\character.json",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Config\\character.json",
+              "RelativeToolTip": "TestCopilotGame\\Config\\character.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-14T01:40:31.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroundConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Entities\\Configuration\\GroundConfig.cs",
+              "RelativeDocumentMoniker": "TestCopilotGame\\Entities\\Configuration\\GroundConfig.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Entities\\Configuration\\GroundConfig.cs",
+              "RelativeToolTip": "TestCopilotGame\\Entities\\Configuration\\GroundConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T01:37:17.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroundRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Entities\\GroundRenderer.cs",
+              "RelativeDocumentMoniker": "TestCopilotGame\\Entities\\GroundRenderer.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Entities\\GroundRenderer.cs",
+              "RelativeToolTip": "TestCopilotGame\\Entities\\GroundRenderer.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwD8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T01:35:20.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestCopilotGame",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\TestCopilotGame.csproj",
+              "RelativeDocumentMoniker": "TestCopilotGame\\TestCopilotGame.csproj",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\TestCopilotGame.csproj",
+              "RelativeToolTip": "TestCopilotGame\\TestCopilotGame.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T01:32:21.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MonoGameHost.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Rendering\\MonoGame\\MonoGameHost.cs",
+              "RelativeDocumentMoniker": "TestCopilotGame\\Rendering\\MonoGame\\MonoGameHost.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\TestCopilotGame\\TestCopilotGame\\Rendering\\MonoGame\\MonoGameHost.cs",
+              "RelativeToolTip": "TestCopilotGame\\Rendering\\MonoGame\\MonoGameHost.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAADwv1UBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T01:21:31.481Z",
+              "EditorCaption": ""
             }
           ]
         }

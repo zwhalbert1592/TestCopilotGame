@@ -5,3 +5,96 @@
 /.vs/CopilotSnapshots
 /.vs/TestCopilotGame/CopilotIndices/18.3.277.3498
 /.vs/TestCopilotGame/FileContentIndex
+/.vs/TestCopilotGame/copilot-chat/d4140196/sessions
+/.vs/TestCopilotGame/v18/.suo
+/.vs/TestCopilotGame/v18/DocumentLayout.backup.json
+/.vs/TestCopilotGame/v18/DocumentLayout.json
+
+# Visual Studio / IDEs
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+*.sw*
+*.swp
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local History for Visual Studio
+.localhistory/
+
+# Visual Studio Code Directory Settings
+.vscode/
+!.vscode/extensions.json
+
+# Rider / ReSharper
+.idea/
+.idea_modules/
+*.sln.iml
+_ReSharper*/
+_TeamCity*/
+.resharper
+.resharper.user
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+.nuget/
+packages/
+packages.lock.json
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Entity Framework
+*.edmx.diagram
+
+# Test Results
+TestResults/
+*.trx
+
+# Backup & report files from converting an old project file
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# User secrets
+secrets.json
+appsettings.Development.json

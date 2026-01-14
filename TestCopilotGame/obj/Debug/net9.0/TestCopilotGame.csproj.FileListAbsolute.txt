@@ -50,3 +50,4 @@ C:\Users\Zach\source\repos\TestCopilotGame\TestCopilotGame\bin\Debug\net9.0\Asse
 C:\Users\Zach\source\repos\TestCopilotGame\TestCopilotGame\bin\Debug\net9.0\Assets\Sprites\Player\running\frame-5.png
 C:\Users\Zach\source\repos\TestCopilotGame\TestCopilotGame\bin\Debug\net9.0\Assets\Sprites\Player\running\frame-6.png
 C:\Users\Zach\source\repos\TestCopilotGame\TestCopilotGame\bin\Debug\net9.0\StbImageSharp.dll
+C:\Users\Zach\source\repos\TestCopilotGame\TestCopilotGame\obj\Debug\net9.0\TestCopilotGame.sourcelink.json

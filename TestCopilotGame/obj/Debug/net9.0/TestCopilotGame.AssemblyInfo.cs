@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestCopilotGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b10bc837a6b0691f0417aa427a4c970d0167c52")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestCopilotGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestCopilotGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
