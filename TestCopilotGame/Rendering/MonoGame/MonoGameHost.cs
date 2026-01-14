@@ -41,16 +41,16 @@ public class MonoGameHost : Game
         IsFixedTimeStep = true;
         TargetElapsedTime = TimeSpan.FromSeconds(1.0 / 60.0); // 60 FPS fixed timestep
         _graphics.SynchronizeWithVerticalRetrace = false;
-        
+
         _graphics.PreferredBackBufferWidth = 1920;
         _graphics.PreferredBackBufferHeight = 1080;
-        
+
         _logger = logger;
 
         Window.Title = "Test Copilot Game";
         Window.AllowUserResizing = true;
         Window.IsBorderless = false;
-        
+
         _graphics.ApplyChanges();
 
         _logger?.LogInformation("MonoGameHost created");
@@ -112,10 +112,10 @@ public class MonoGameHost : Game
 
             _logger?.LogInformation("Loading idle frames from {Pattern}", config.IdleAnimation.Pattern);
             var idleFrames = LoadFrames(config.IdleAnimation.Pattern, config.IdleAnimation.Count);
-            
+
             _logger?.LogInformation("Loading run frames from {Pattern}", config.RunAnimation.Pattern);
             var runFrames = LoadFrames(config.RunAnimation.Pattern, config.RunAnimation.Count);
-            
+
             _logger?.LogInformation("Loading jump frames from {Pattern}", config.JumpAnimation.Pattern);
             var jumpFrames = LoadFrames(config.JumpAnimation.Pattern, config.JumpAnimation.Count);
 
@@ -125,14 +125,14 @@ public class MonoGameHost : Game
                 FramesPerSecond = config.IdleAnimation.FramesPerSecond,
                 Scale = new Vector2(config.Render.Scale)
             };
-            
+
             var runRenderer = new AnimatedSpriteRenderer(runFrames, zOrder: config.Render.RunZOrder)
             {
                 Position = new Vector2((float)config.Render.StartX, (float)config.Render.StartY),
                 FramesPerSecond = config.RunAnimation.FramesPerSecond,
                 Scale = new Vector2(config.Render.Scale)
             };
-            
+
             var jumpRenderer = new AnimatedSpriteRenderer(jumpFrames, zOrder: config.Render.JumpZOrder)
             {
                 Position = new Vector2((float)config.Render.StartX, (float)config.Render.StartY),
@@ -195,14 +195,16 @@ public class MonoGameHost : Game
             bool movingLeft = keyboardState.IsKeyDown(Keys.Left) || keyboardState.IsKeyDown(Keys.A);
             bool movingRight = keyboardState.IsKeyDown(Keys.Right) || keyboardState.IsKeyDown(Keys.D);
             bool jumping = keyboardState.IsKeyDown(Keys.Space) || keyboardState.IsKeyDown(Keys.Up) || keyboardState.IsKeyDown(Keys.W);
-            
+            bool sprinting = keyboardState.IsKeyDown(Keys.LeftShift) || keyboardState.IsKeyDown(Keys.RightShift);
+            double speedMultiplier = sprinting ? 1.5 : 1.0;
+
             if (movingLeft && !movingRight)
-                _player.Move(-200.0);
+                _player.Move(-200.0 * speedMultiplier);
             else if (movingRight && !movingLeft)
-                _player.Move(200.0);
+                _player.Move(200.0 * speedMultiplier);
             else
                 _player.StopMoving();
-            
+
             if (jumping)
                 _player.Jump();
         }
@@ -233,7 +235,7 @@ public class MonoGameHost : Game
 
     private void HandleWindowResize(KeyboardState keyboardState)
     {
-        bool IsKeyJustPressed(Keys key) => 
+        bool IsKeyJustPressed(Keys key) =>
             keyboardState.IsKeyDown(key) && !_previousKeyboardState.IsKeyDown(key);
 
         if (IsKeyJustPressed(Keys.D1) && keyboardState.IsKeyDown(Keys.LeftControl))
@@ -272,7 +274,7 @@ public class MonoGameHost : Game
 
             // Use dark green background to make ground level visible
             GraphicsDevice.Clear(Color.DarkGreen);
-            
+
             if (_spriteBatch is not null && RenderManager is not null)
             {
                 _textureService?.ProcessPendingTextures();
